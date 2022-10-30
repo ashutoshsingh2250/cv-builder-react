@@ -9,6 +9,8 @@ import UseContextEx from './components/UseContextEx/UseContextEx';
 import HighOrderCompApp from './components/HighOrderComp/HighOrderCompApp';
 import { createContext } from 'react';
 import CustomHookMain from './components/CustomHook/CustomHookMain';
+import Header from './components/Header/Header';
+import Body from './components/Body/Body';
 
 export const GlobalInfo = createContext();
 
@@ -28,7 +30,8 @@ function App() {
         {/* <UseContextEx></UseContextEx> */}
         {/* <HighOrderCompApp></HighOrderCompApp> */}
         {/* <CustomHookMain></CustomHookMain> */}
-        {}
+        <Header />
+        <Body />
       </div>
     // </GlobalInfo.Provider>
   )
